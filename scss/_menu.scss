@@ -92,7 +92,7 @@
         }
 
         &.active > a {
-          color: $secondary-color;
+          color: $dark-nav-color;
         }
       }
 
@@ -105,7 +105,7 @@
         @include transition-ease;
 
         &:hover {
-          color: $tertiary-color;
+          color: $light-nav-color;
         }
       }
     }

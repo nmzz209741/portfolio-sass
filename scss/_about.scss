@@ -41,8 +41,10 @@
     &__job {
       background:lighten($primary-color, 10%);
       padding: 0.5rem;
-      border-bottom: 5px solid $secondary-color;
-
+      border-bottom: 5px solid $dark-nav-color;
+      h2 {
+        color: $tertiary-color
+      }
       h2 ,h3{
         margin: 0.5rem 0;
       }

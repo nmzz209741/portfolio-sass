@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/main.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/main.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.4))), url("../img/main.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.4)), url("../img/main.jpg") center top;
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: #1393dd;
+  color: #56bee7;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #1393dd;
+  color: #13ecec;
 }
 
 .nav .menu-nav__link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #86b8e0;
+  color: #9deeee;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -236,7 +236,11 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #1393dd;
+  border-bottom: 5px solid #13ecec;
+}
+
+.about .jobs__job h2 {
+  color: #86b8e0;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -304,7 +308,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #1393dd;
+  border-bottom: 5px solid #56bee7;
   overflow: hidden;
   cursor: pointer;
 }
@@ -504,7 +508,7 @@ a {
 }
 
 .text-secondary {
-  color: #1393dd;
+  color: #56bee7;
 }
 
 header {
@@ -532,7 +536,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #1393dd;
+  color: #56bee7;
 }
 
 footer {
