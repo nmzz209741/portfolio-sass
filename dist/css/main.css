@@ -328,11 +328,16 @@
 
 .projects__item:hover::after {
   top: 0;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .projects__item:hover .projects__btn {
   opacity: 1;
+}
+
+.projects__item:hover .projects__btn-text {
+  opacity: 1;
+  visibility: visible;
 }
 
 .projects__btns {
@@ -343,12 +348,12 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  padding: 1rem;
 }
 
 .projects__btn {
@@ -360,6 +365,14 @@
 
 .projects__btn:hover {
   color: #fff;
+}
+
+.projects__btn-text {
+  visibility: hidden;
+  opacity: 0;
+  color: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects .social-icons {
