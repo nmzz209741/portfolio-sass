@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: #e5ff00;
+  color: #f03c4b;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #e5ff00;
+  color: #f03c4b;
 }
 
 .nav .menu-nav__link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #e5ff00;
+  color: #f03c4b;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -236,7 +236,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #e5ff00;
+  border-bottom: 5px solid #f03c4b;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -304,7 +304,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #e5ff00;
+  border-bottom: 5px solid #f03c4b;
   overflow: hidden;
   cursor: pointer;
 }
@@ -320,7 +320,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #e5ff00;
+  background: #f03c4b;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -504,7 +504,7 @@ a {
 }
 
 .text-secondary {
-  color: #e5ff00;
+  color: #f03c4b;
 }
 
 header {
@@ -532,7 +532,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #e5ff00;
+  color: #f03c4b;
 }
 
 footer {
